@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ChessPlusPlus.UI", "ChessPlusPlus\ChessPlusPlus.vcxproj", "{7B1C64A4-181A-4D3F-8CF2-CAF8769A880F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{338053E6-501E-4007-BD76-4D113CDBDC40} = {338053E6-501E-4007-BD76-4D113CDBDC40}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ChessPlusPlus.Test", "ChessPlusPlus.Test\ChessPlusPlus.Test.vcxproj", "{6BD58AFB-1B19-4551-98A3-01B3E65F7939}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ChessPlusPlus.Dll", "ChessPlusPlus.Dll\ChessPlusPlus.Dll.vcxproj", "{338053E6-501E-4007-BD76-4D113CDBDC40}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ChessPlusPlus.IntegrationTest", "ChessPlusPlus.IntegrationTest\ChessPlusPlus.IntegrationTest.vcxproj", "{6F605785-41F2-47EF-9C75-89C1E6834845}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B1C64A4-181A-4D3F-8CF2-CAF8769A880F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7B1C64A4-181A-4D3F-8CF2-CAF8769A880F}.Debug|Win32.Build.0 = Debug|Win32
+		{7B1C64A4-181A-4D3F-8CF2-CAF8769A880F}.Release|Win32.ActiveCfg = Release|Win32
+		{7B1C64A4-181A-4D3F-8CF2-CAF8769A880F}.Release|Win32.Build.0 = Release|Win32
+		{6BD58AFB-1B19-4551-98A3-01B3E65F7939}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6BD58AFB-1B19-4551-98A3-01B3E65F7939}.Debug|Win32.Build.0 = Debug|Win32
+		{6BD58AFB-1B19-4551-98A3-01B3E65F7939}.Release|Win32.ActiveCfg = Release|Win32
+		{6BD58AFB-1B19-4551-98A3-01B3E65F7939}.Release|Win32.Build.0 = Release|Win32
+		{338053E6-501E-4007-BD76-4D113CDBDC40}.Debug|Win32.ActiveCfg = Debug|Win32
+		{338053E6-501E-4007-BD76-4D113CDBDC40}.Debug|Win32.Build.0 = Debug|Win32
+		{338053E6-501E-4007-BD76-4D113CDBDC40}.Release|Win32.ActiveCfg = Release|Win32
+		{338053E6-501E-4007-BD76-4D113CDBDC40}.Release|Win32.Build.0 = Release|Win32
+		{6F605785-41F2-47EF-9C75-89C1E6834845}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6F605785-41F2-47EF-9C75-89C1E6834845}.Debug|Win32.Build.0 = Debug|Win32
+		{6F605785-41F2-47EF-9C75-89C1E6834845}.Release|Win32.ActiveCfg = Release|Win32
+		{6F605785-41F2-47EF-9C75-89C1E6834845}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
